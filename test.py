@@ -1,3 +1,3 @@
-import sample.api
+import sample
 
-sample.api.hello()
+sample.hello()
