@@ -1,0 +1,1 @@
+pip install dist 또는 pip install bdist_wheel

@@ -1,0 +1,4 @@
+sphinx-quickstart
+
+pip install git+https://github.com/bashtage/sphinx-material.git
+html_theme = 'sphinx_material'
