@@ -1,0 +1,11 @@
+# python 이라는 작업 생성
+schtasks /create /tn "python" /tr "C:\Users\11700205\workspace\99. 기타\(2021.06) 스케줄러\requirements.txt" /sc minute /mo 30
+
+# 이름이 python 인 작업 조회
+schtasks /query /tn python /fo list /v
+
+# 이름이 python 인 작업 삭제
+schtasks /delete /tn python
+
+# 한번 실행
+schtasks /create /tn "python" /tr "C:\Users\11700205.EDBINS\Desktop\login.vbs" /sc once /st 14:19
